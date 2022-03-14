@@ -32,7 +32,7 @@
 
     <div class="checkbox mb-3">
       <label>
-        <input type="checkbox" name='reme' <?php if(isset($_COOKIE["pass"])) { echo "checked";} ?>'> Remember me
+        <input type="checkbox" name='reme' <?php if(isset($_COOKIE["pass"])) { echo "checked";} ?>> Remember me
       </label>
     </div>
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
